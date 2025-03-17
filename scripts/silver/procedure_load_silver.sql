@@ -70,3 +70,14 @@ end_date,
 DATEDIFF(DAY, start_date, end_date) AS duration_days,
 budget
 from bronze.mms_campaign;
+SELECT * FROM silver.mms_campaign;
+-------------------------
+--Channel
+INSERT INTO silver.mms_channel(
+channel_type,
+campaign_id)
+select 
+upper(left(channel_type,1))+SUBSTRING(channel_type,2,len(channel_type)) as channel_type,
+campaign_id
+from bronze.mms_channel;
+-------------------------
