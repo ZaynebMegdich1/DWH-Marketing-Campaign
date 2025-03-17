@@ -1,4 +1,3 @@
-
 --Creating Silver Layer
 -----------------------------
 -- Create Campaign Table
@@ -9,6 +8,7 @@ CREATE TABLE silver.mms_campaign(
     campaign_name VARCHAR(100),
     start_date DATE,
     end_date DATE,
+	duration_days INT,
     budget INT
 );
 SELECT * FROM silver.mms_campaign;
@@ -26,7 +26,7 @@ CREATE TABLE silver.erp_product(
 );
 SELECT * FROM silver.erp_product;
 
--- Create Category Table 
+-- Create Category Table (Mapping Products to Categories)
 IF OBJECT_ID('silver.erp_category', 'U') IS NOT NULL
 DROP TABLE silver.erp_category;
 CREATE TABLE silver.erp_category(
@@ -37,7 +37,7 @@ CREATE TABLE silver.erp_category(
 );
 SELECT * FROM silver.erp_category;
 
--- Create Media Spend Table 
+-- Create Media Spend Table (Fact Table)
 IF OBJECT_ID('silver.mms_media_spend', 'U') IS NOT NULL
 DROP TABLE silver.mms_media_spend;
 CREATE TABLE silver.mms_media_spend(
