@@ -57,7 +57,6 @@ SELECT * FROM silver.mms_media_spend;
 IF OBJECT_ID('silver.mms_channel', 'U') IS NOT NULL
 DROP TABLE silver.mms_channel;
 CREATE TABLE silver.mms_channel(
-    channel_id INT,
     channel_type VARCHAR(50),
     campaign_id VARCHAR(10)  
 );
