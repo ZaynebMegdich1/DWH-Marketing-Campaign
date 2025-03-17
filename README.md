@@ -12,9 +12,11 @@ _MMS (Marketing Management System):
 campaigns: Includes marketing campaign details such as campaign name, type, and budget.
 channels: Lists marketing channels (email, social media, TV, etc.) used for campaigns.
 campaign_performance: Tracks key performance metrics like impressions, clicks, and conversions
+
 **📉 Data Quality**
 Unclean Data: Includes duplicates, missing values, inconsistent formats, incorrect data types, and spaces in key fields.
 Transformation Needs: Requires standardization, deduplication, column derivations, and data integrity checks before structuring into fact and dimension tables.
+
 **🎯 Objectives**
 ✔️ Extract raw data from multiple sources (ERP, CRM, MMS).
 ✔️ Clean and transform data using SQL to remove inconsistencies.
