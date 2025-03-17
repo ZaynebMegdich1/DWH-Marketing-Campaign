@@ -1,7 +1,6 @@
---Inserting Clean data into the silver layer
-----------------------------
+--Inserting Clean data
+-------------------------
 --Customer
-----------------------------
 INSERT INTO silver.crm_customer(
 customer_id,
 first_name,
@@ -19,9 +18,8 @@ SELECT
     age, 
 	UPPER(trim(gender)) AS gender
 FROM bronze.crm_customer;
-----------------------------
+-------------------------
 --Category
------------------------------
 INSERT INTO silver.erp_category(
 cat_id,
 product_key,
@@ -33,9 +31,8 @@ cat_id,
 category,
 subcategory
 FROM bronze.erp_category
--------------------------------
+-------------------------
 --Product
--------------------------------
 INSERT INTO silver.erp_product(
 product_id,
 product_name,
@@ -56,3 +53,20 @@ END AS launch_date,
 description
 FROM bronze.erp_product;
 SELECT * FROM silver.erp_product;
+-------------------------
+--Campaign
+INSERT INTO silver.mms_campaign(
+campaign_id,
+campaign_name,
+start_date,
+end_date,
+duration_days,
+budget)
+select 
+substring(campaign_id,4,len(campaign_id)) as campaign_id,
+campaign_name,
+start_date,
+end_date,
+DATEDIFF(DAY, start_date, end_date) AS duration_days,
+budget
+from bronze.mms_campaign;
