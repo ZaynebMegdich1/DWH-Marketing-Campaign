@@ -8,6 +8,7 @@ SELECT
     product_id,
     product_name,
     category,
+    subcategory,
     price,
     inventory,
     launch_date,
