@@ -102,6 +102,16 @@ BEGIN
         UPPER(LEFT(channel_type, 1)) + SUBSTRING(channel_type, 2, LEN(channel_type)) AS channel_type,
         campaign_id
     FROM bronze.mms_channel;
+--Unmatched length with Campaign_id from campaign table
+	SELECT campaign_id, 
+       LEN(campaign_id) AS len_before,
+       STRING_AGG(ASCII(SUBSTRING(campaign_id, number, 1)), ', ') AS ascii_codes
+FROM silver.mms_channel
+JOIN master.dbo.spt_values ON type = 'P' AND number BETWEEN 1 AND LEN(campaign_id)
+GROUP BY campaign_id;
+
+UPDATE silver.mms_channel
+SET campaign_id = REPLACE(campaign_id, CHAR(13), '');
 
     ----------------------------------
     PRINT '>> Truncating Table: silver.mms_media_spend';
