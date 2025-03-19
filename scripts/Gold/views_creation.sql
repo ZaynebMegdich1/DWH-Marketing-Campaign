@@ -3,6 +3,9 @@
 
 ----Creating Product Dim
 ------------------------
+IF OBJECT_ID('gold.dim_product', 'V') IS NOT NULL
+    DROP VIEW gold.dim_product;
+GO
 CREATE VIEW gold.dim_product AS 
 SELECT
     product_id,
@@ -20,6 +23,9 @@ LEFT JOIN silver.erp_category cat
 ----------------------------
 ----Creating Campaign DIM
 ----------------------------
+IF OBJECT_ID('gold.dim_campaign', 'V') IS NOT NULL
+    DROP VIEW gold.dim_campaign;
+GO
 CREATE VIEW gold.dim_campaign AS 
 SELECT 
     camp.campaign_id,
@@ -36,6 +42,9 @@ LEFT JOIN silver.mms_channel chan
 ----------------------------------------
 --Dim customer
 ----------------------------------------
+IF OBJECT_ID('gold.dim_customer', 'V') IS NOT NULL
+    DROP VIEW gold.dim_customer;
+GO
 CREATE VIEW gold.dim_customer AS 
 SELECT * 
 FROM silver.crm_customer;
@@ -43,6 +52,9 @@ FROM silver.crm_customer;
 ----------------------------------------
 --Fact Table
 ----------------------------------------
+IF OBJECT_ID('gold.fact', 'V') IS NOT NULL
+    DROP VIEW gold.fact;
+GO
 CREATE VIEW gold.fact AS 
 SELECT * 
 FROM silver.mms_media_spend;
