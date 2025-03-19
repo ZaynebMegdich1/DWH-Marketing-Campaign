@@ -1,0 +1,21 @@
+product_id,product_name,price,inventory,launch_date,description
+P001, Laptop,80,81,2023-01-31,Durable and comfy boots
+P002,Coffee Maker,80,31,2023-03-16,High-quality audio
+P003,Coffee Maker,100,70,2023-05-03,Durable and comfy boots
+P004,TV,700,69,2023-04-11,Lightweight and portable
+P005,Gaming Console,90,85,2023-01-01,Fitness tracking watch
+P006,Smartphone,500,33,2023-03-25,Lightweight and portable
+P007,Laptop,700,18,2023-05-27,Fitness tracking watch
+P008,Smartphone,150,75,2023-01-29,Fitness tracking watch
+P009,Electric Toothbrush,700,15,2023-05-16,Warm and stylish jacket
+P0010,Smart Glasses,120,22,2033-04-11,Warm and stylish jacket
+P0011,Bluetooth Earbuds,700,-64,2033-02-09,Warm and stylish jacket
+P0012,Portable Speaker,700,34,2023-01-12,Warm and stylish jacket
+P0013,Yoga Mat,700,44,2023-03-22,Durable and comfy boots
+P0014,Kitchen Blender,120,73,2023-05-13,Warm and stylish jacket
+P0015,Laptop,250,-23,2023-04-19,Warm and stylish jacket
+P0016,Bluetooth Earbuds,80,66,2023-04-30,High-quality audio
+P0017,Smart Glasses,300,-81,2023-04-18,Warm and stylish jacket
+P0018,Smart Glasses,100,45,2023-01-16,High-quality audio
+P0019,Electric Toothbrush,100,44,2023-03-12,Durable and comfy boots
+P0020,Leather Boots,500,74,2023-01-25,High-quality audio

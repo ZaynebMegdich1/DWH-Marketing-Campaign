@@ -1,0 +1,101 @@
+customer_id,first_name,last_name,join_date,city,country,age,gender
+C001,Lily,Nelson,2023-08-01,Houston,USA,29, F
+C002,Sophia,Taylor,2020-12-27,San Francisco,USA,46,M 
+C003,Michael,Brown,2020-03-05,Miami,USA,29,M 
+C004,Mia,Moore,2021-09-10,New York,USA,28,M 
+C005,John,Davis,2021-12-23,Dallas,USA,44,M 
+C006,Lily,Adams,2023-05-24,San Francisco,USA,47,f 
+C007,David,Davis,2022-10-17,Las Vegas,USA,31,M
+C008,Olivia,Clark,2022-07-15,Atlanta,USA,28,M 
+C009,Mia,Moore,2023-04-21,Miami,USA,30, M 
+C0010,Chris,Smith,2023-06-25,Denver,USA,22,M 
+C0011,David,Doe,2023-07-19,Las Vegas,USA,43,F
+C0012,David,Brown,2022-10-27,Chicago,USA,28,M
+C0013,Emma,Taylor,2021-08-10,San Diego,USA,33, M 
+C0014,Ethan,Anderson,2021-04-20,Denver,USA,42,m 
+C0015,Daniel,Doe,2020-10-10,Houston,USA,39,M 
+C0016,David,Johnson,2021-04-07,Los Angeles,USA,27,f
+C0017,Olivia,Davis,2021-03-13,Phoenix,USA,33,M
+C0018,John,Moore,2023-12-27,Dallas,USA,47,F 
+C0019,Andrew,Clark,2021-08-01,Miami,USA,49,F
+C0020,Olivia,Adams,2022-03-08,Miami,USA,25,m
+C0021,Michael,Clark,2023-05-14,Austin,USA,21,M
+C0022,John,Clark,2021-04-26,Los Angeles,USA,30, F 
+C0023,Sophia,Moore,2023-04-20,New York,USA,31,M
+C0024,Mia,Anderson,2021-10-16,Boston,USA,32,F
+C0025,David,Clark,2020-07-07,Miami,USA,44,M 
+C0026,Olivia,Davis,2023-07-03,Dallas,USA,29,F 
+C0027,Ethan,Adams,2022-05-10,Las Vegas,USA,50,M 
+C0028,Chris,Nelson,2020-06-03,Boston,USA,41,M 
+C0029,Sarah,Davis,2022-08-08,Dallas,USA,38,F
+C0030,Jane,Adams,2022-08-05,Dallas,USA,48,M
+C0031,Andrew,Davis,2021-09-28,Houston,USA,19,F
+C0032,Emma,Nelson,2022-09-10,Phoenix,USA,38,M 
+C0033,Jane,Adams,2023-08-14,New York,USA,33,F
+C0034,James,Clark,2023-05-24,Los Angeles,USA,31,F 
+C0035,Sarah,Clark,2022-04-30,San Francisco,USA,43,F
+C0036,Lily,Moore,2022-12-18,Chicago,USA,21,F
+C0037,Andrew,Johnson,2021-08-23,Denver,USA,19,M
+C0038,Daniel,Adams,2021-09-05,Denver,USA,44,F
+C0039,Ethan,Anderson,2022-08-04,Miami,USA,40,F 
+C0040,Michael,Doe,2021-12-20,Phoenix,USA,20,M
+C0041,Sophia,Doe,2022-10-22,San Francisco,USA,37,M 
+C0042,Michael,Davis,2021-04-23,Seattle,USA,31,F 
+C0043,John,Johnson,2022-05-27,Denver,USA,41,M
+C0044,Sophia,Brown,2023-12-29,Austin,USA,39,F
+C0045,John,White,2023-02-23,Seattle,USA,24,M 
+C0046,Sophia,Moore,2022-08-18,Dallas,USA,48,M 
+C0047,John,Doe,2021-01-07,Seattle,USA,40,F 
+C0048,Jane,Adams,2021-04-19,Houston,USA,45,F 
+C0049,John,Taylor,2021-12-09,Atlanta,USA,44,F 
+C0050,Emma,Smith,2023-04-03,Denver,USA,47,M 
+C0051,James,Doe,2021-02-14,Chicago,USA,49,M
+C0052,Ethan,Clark,2023-07-26,Austin,USA,41,M
+C0053,Ethan,Moore,2020-08-25,Houston,USA,49,M 
+C0054,Sophia,Anderson,2023-02-09,Dallas,USA,31,M 
+C0055,Lily,Davis,2020-02-23,Denver,USA,50,M 
+C0056,Daniel,Moore,2022-02-15,San Francisco,USA,42,F 
+C0057,Daniel,Davis,2021-01-17,Dallas,USA,21,F 
+C0058,Emma,Moore,2020-05-27,San Francisco,USA,32,F 
+C0059,Andrew,Brown,2023-08-30,Austin,USA,38,F
+C0060,Emma,Anderson,2021-09-18,San Diego,USA,20,M
+C0061,John,White,2022-03-09,San Diego,USA,21,F 
+C0062,Andrew,Wilson,2020-06-01,Houston,USA,33,M
+C0063,Ethan,Smith,2023-07-13,San Diego,USA,31,F 
+C0064,Chris,Green,2023-10-26,Boston,USA,25,M 
+C0065,David,White,2020-02-17,San Diego,USA,48,M
+C0066,Lily,Clark,2022-11-26,Seattle,USA,45,F
+C0067,Daniel,Wilson,2021-05-04,Atlanta,USA,44,M
+C0068,David,Adams,2023-03-18,Chicago,USA,18,M 
+C0069,John,White,2021-04-14,San Francisco,USA,48,F 
+C0070,Ethan,Lee,2023-02-08,New York,USA,25,F 
+C0071,Andrew,Nelson,2020-08-13,Houston,USA,33,M
+C0072,Jane,Johnson,2020-02-22,San Diego,USA,47,F 
+C0073,Emma,White,2023-02-03,Denver,USA,29,F 
+C0074,Emma,Johnson,2022-04-02,Los Angeles,USA,37,M
+C0075,Olivia,Green,2020-07-14,San Francisco,USA,50,F
+C0076,Daniel,Brown,2022-08-06,Atlanta,USA,39,M
+C0077,Chris,Davis,2022-10-22,Phoenix,USA,40,F
+C0078,Sophia,Johnson,2021-06-19,Chicago,USA,23,M
+C0079,Daniel,Brown,2020-07-07,Las Vegas,USA,47,M 
+C0080,Daniel,Anderson,2022-03-20,Austin,USA,38,F
+C0081,Sarah,Davis,2020-01-22,Seattle,USA,49,M 
+C0082,Michael,Moore,2021-07-20,Dallas,USA,42,F 
+C0083,Olivia,Brown,2022-08-30,San Francisco,USA,23,F 
+C0084,Daniel,Nelson,2020-10-26,Boston,USA,22,F
+C0085,David,Wilson,2020-08-07,Denver,USA,23,M
+C0086,Olivia,White,2020-04-01,Denver,USA,37,F
+C0087,Sophia,Green,2023-03-21,San Francisco,USA,41,M 
+C0088,John,Doe,2020-12-08,Las Vegas,USA,45,M
+C0089,James,Taylor,2022-03-03,Las Vegas,USA,20,F 
+C0090,James,White,2022-04-20,New York,USA,21,M 
+C0091,Andrew,Doe,2020-03-11,San Diego,USA,31,F 
+C0092,Jane,Nelson,2023-07-16,San diego,USA,37,F
+C0093,John,White,2021-06-25,Phoenix,USA,36,M
+C0094,Ethan,Nelson,2020-08-03,Las Vegas,USA,37,F 
+C0095,Olivia,Moore,2020-09-13,Phoenix,USA,38,F 
+C0096,Ethan,Brown,2023-12-13,las vegas,USA,18,F 
+C0097,Lily,Anderson,2021-06-23,Seattle,USA,49,M 
+C0098,Sarah,Brown,2020-05-20,Chicago,USA,20,F 
+C0099,Jane,White,2020-08-26,Las Vegas,USA,39,M 
+C00100,John,Brown,2021-03-22,las vegas,USA,37,F
