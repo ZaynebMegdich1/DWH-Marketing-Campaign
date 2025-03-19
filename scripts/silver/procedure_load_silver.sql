@@ -24,7 +24,7 @@ BEGIN
         join_date,
         UPPER(LEFT(city, 1)) + LOWER(SUBSTRING(city, 2, LEN(city))) AS city, 
         age, 
-        UPPER(TRIM(gender)) AS gender
+        UPPER(TRIM(REPLACE(gender, CHAR(13), ''))) AS gender
     FROM bronze.crm_customer;
 
     ----------------------------------
