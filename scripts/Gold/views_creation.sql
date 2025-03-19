@@ -8,17 +8,17 @@ IF OBJECT_ID('gold.dim_product', 'V') IS NOT NULL
 GO
 CREATE VIEW gold.dim_product AS 
 SELECT
-    product_id,
-    product_name,
-    category,
-    subcategory,
-    price,
-    inventory,
-    launch_date,
-    description
+pr.product_id,
+pr.product_name,
+cat.category,
+cat.subcategory,
+pr.price,
+pr.inventory,
+pr.launch_date,
+description
 FROM silver.erp_product pr
 LEFT JOIN silver.erp_category cat
-    ON pr.product_id = cat.product_key;
+ON pr.product_id=cat.product_key
 
 ----------------------------
 ----Creating Campaign DIM
