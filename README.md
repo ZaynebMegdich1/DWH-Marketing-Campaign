@@ -1,9 +1,15 @@
 # ***Marketing Campaign Data Warehouse***
 
+---
+
 **📌 Project Overview**  
 This project focuses on building a data warehouse for marketing campaign performance analysis using SQL and the Medallion Architecture (Bronze, Silver, and Gold layers). The data is sourced from multiple systems, including ERP, CRM, and MMS, and is initially uncleaned, requiring extensive data transformation and optimization.
 
+---
+
 **📊 Specifications**
+
+---
 
 📂 ***Data Sources***
 
@@ -18,9 +24,13 @@ This project focuses on building a data warehouse for marketing campaign perform
 - ***Channel Data (channel_data.csv)*** – Provides details on marketing channels (Facebook, Google Ads, LinkedIn, etc.), audience segmentation, and campaign links.  
 - ***Media Spend Data (media_spend_data.csv)*** – Tracks media spend per channel and campaign, including impressions, clicks, conversions, and cost per conversion.
 
+---
+
 **📉 Data Quality**  
 - ***Unclean Data:*** Includes duplicates, missing values, inconsistent formats, incorrect data types, and spaces in key fields.  
 - ***Transformation Needs:*** Requires standardization, deduplication, column derivations, and data integrity checks before structuring into fact and dimension tables.
+
+---
 
 **🎯 Objectives**  
 ✔️ Extract raw data from multiple sources (ERP, CRM, MMS).  
@@ -30,3 +40,4 @@ This project focuses on building a data warehouse for marketing campaign perform
   - ***Silver Layer:*** Cleansed and standardized data.  
   - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).  
 
+---
