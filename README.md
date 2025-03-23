@@ -27,12 +27,14 @@ This project focuses on building a data warehouse for marketing campaign perform
 ---
 
 **📉 Data Quality**  
+
 - ***Unclean Data:*** Includes duplicates, missing values, inconsistent formats, incorrect data types, and spaces in key fields.  
 - ***Transformation Needs:*** Requires standardization, deduplication, column derivations, and data integrity checks before structuring into fact and dimension tables.
 
 ---
 
 **🎯 Objectives**  
+
 ✔️ Extract raw data from multiple sources (ERP, CRM, MMS).  
 ✔️ Clean and transform data using SQL to remove inconsistencies.  
 ✔️ Design an optimized data warehouse using the Medallion Architecture:  
