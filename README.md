@@ -5,6 +5,7 @@ This project focuses on building a data warehouse for marketing campaign perform
 
 
 ### 📊 **Specifications**
+---
 
 #### 📂 ***Data Sources***
 
@@ -35,6 +36,4 @@ This project focuses on building a data warehouse for marketing campaign perform
 ✔Design an optimized data warehouse using the Medallion Architecture:  
   - ***Bronze Layer:*** Stores raw, unprocessed data.  
   - ***Silver Layer:*** Cleansed and standardized data.  
-  - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).  
-
---- 
+  - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).   
