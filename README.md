@@ -10,15 +10,15 @@ This project focuses on building a data warehouse for marketing campaign perform
 #### 📂 ***Data Sources***
 
 🔹 **ERP**  
-- ***Product Data (product_data.csv)*** – Contains details on products marketed, including category, pricing, inventory, and launch dates.
+- ***Product Data (product_data.csv)*** – Contains details on products marketed, including name, category, and inventory
 
 🔹 **CRM**  
-- ***Customer Data (customer_data.csv)*** – Stores customer details such as name, contact information, location, age, gender, loyalty status, and purchase history.
+- ***Customer Data (customer_data.csv)*** – Stores customer details such as name, location, age, join date, and gender.
 
 🔹 **MMS**  
-- ***Campaign Data (campaign_data.csv)*** – Includes marketing campaign details such as budget, start and end dates, target region, and campaign status.  
-- ***Channel Data (channel_data.csv)*** – Provides details on marketing channels (Facebook, Google Ads, LinkedIn, etc.), audience segmentation, and campaign links.  
-- ***Media Spend Data (media_spend_data.csv)*** – Tracks media spend per channel and campaign, including impressions, clicks, conversions, and cost per conversion.
+- ***Campaign Data (campaign_data.csv)*** – Includes marketing campaign details such as campaign name, budget, and start and end dates.  
+- ***Channel Data (channel_data.csv)*** – Includes channels type  
+- ***Media Spend Data (media_spend_data.csv)*** – Tracks media spend per channel and campaign, including impressions, clicks, and conversions.
 
 
 
