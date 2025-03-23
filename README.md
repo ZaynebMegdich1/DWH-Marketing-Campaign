@@ -26,6 +26,7 @@ Media Spend Data (media_spend_data.csv) – Tracks media spend per channel and c
 **📉 Data Quality**
 
 Unclean Data: Includes duplicates, missing values, inconsistent formats, incorrect data types, and spaces in key fields.
+
 Transformation Needs: Requires standardization, deduplication, column derivations, and data integrity checks before structuring into fact and dimension tables.
 
 **🎯 Objectives**
@@ -37,9 +38,8 @@ Transformation Needs: Requires standardization, deduplication, column derivation
 ✔️ Design an optimized data warehouse using the Medallion Architecture:
 
 Bronze Layer: Stores raw, unprocessed data.
+
 Silver Layer: Cleansed and standardized data.
+
 Gold Layer: Final business-ready tables (fact & dimension tables).
 
-✔️ Build a Power BI dashboard to visualize marketing campaign performance.
-
-✔️ Improve SQL skills by handling real-world messy data and optimizing queries.
