@@ -1,0 +1,21 @@
+cat_id,product_key,category,subcategory
+CAT1,P004,Fitness,Smart Devices
+CAT2,P0015,Electronics,Sports Gear
+CAT4,P007,Lifestyle,Smart Devices
+CAT4,P0011,Apparel,Winter Wear
+CAT2,P008,Fitness,Winter Wear
+CAT2,P0016,Lifestyle,Sports Gear
+CAT5,P0010,Apparel,Sports Gear
+CAT2,P001,Electronics,Smart Devices
+CAT5,P003,Electronics,Winter Wear
+CAT4,P005,Lifestyle,Sports Gear
+CAT1,P003,Apparel,Home Essentials
+CAT2,P006,Lifestyle,Smart Devices
+CAT3,P004,Apparel,Smart Devices
+CAT4,P0016,Lifestyle,Smart Devices
+CAT4,P002,Fitness,Gadgets
+CAT3,P002,Apparel,Gadgets
+CAT1,P0011,Apparel,Gadgets
+CAT1,P0011,Apparel,Sports Gear
+CAT5,P0014,Electronics,Smart Devices
+CAT2,P0017,Electronics,Winter Wear
