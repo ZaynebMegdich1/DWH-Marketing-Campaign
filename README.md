@@ -7,15 +7,15 @@ This project focuses on building a data warehouse for marketing campaign perform
 
 📂 Data Sources
 
-🔹 ERP (Enterprise Resource Planning)
+🔹 ERP
 
 Product Data (product_data.csv) – Contains details on products marketed, including category, pricing, inventory, and launch dates.
 
-🔹 CRM (Customer Relationship Management)
+🔹 CRM
 
 Customer Data (customer_data.csv) – Stores customer details such as name, contact information, location, age, gender, loyalty status, and purchase history.
 
-🔹 MMS (Marketing Management System)
+🔹 MMS
 
 Campaign Data (campaign_data.csv) – Includes marketing campaign details such as budget, start and end dates, target region, and campaign status.
 
