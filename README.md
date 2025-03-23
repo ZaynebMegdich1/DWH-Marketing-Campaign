@@ -30,9 +30,9 @@ This project focuses on building a data warehouse for marketing campaign perform
 
 ### 🎯 **Objectives**  
 
-✔️ Extract raw data from multiple sources (ERP, CRM, MMS).  
-✔️ Clean and transform data using SQL to remove inconsistencies.  
-✔️ Design an optimized data warehouse using the Medallion Architecture:  
+✔Extract raw data from multiple sources (ERP, CRM, MMS).  
+✔Clean and transform data using SQL to remove inconsistencies.  
+✔Design an optimized data warehouse using the Medallion Architecture:  
   - ***Bronze Layer:*** Stores raw, unprocessed data.  
   - ***Silver Layer:*** Cleansed and standardized data.  
   - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).  
