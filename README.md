@@ -40,7 +40,7 @@ The Marketing Campaign Performance Analysis leverages views created in the DWH t
   - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).
 
 
-###📊**Views Used For the Analysis**
+### 📊**Views Used For the Analysis**
 
 _Campaign Performance View
 
