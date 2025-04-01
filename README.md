@@ -1,7 +1,8 @@
-# ***Marketing Campaign Data Warehouse***
+# ***Marketing Campaign Data Warehouse & Performance Analysis***
 
 ### 📌 **Project Overview**  
 This project focuses on building a data warehouse for marketing campaign performance analysis using SQL and the Medallion Architecture (Bronze, Silver, and Gold layers). The data is sourced from multiple systems, including ERP, CRM, and MMS, and is initially uncleaned, requiring extensive data transformation and optimization.
+The Marketing Campaign Performance Analysis leverages views created in the DWH to generate insights on campaign effectiveness, channel performance, and customer engagement using SQL.
 
 
 ### 📊 **Specifications**
@@ -36,4 +37,15 @@ This project focuses on building a data warehouse for marketing campaign perform
 ✔Design an optimized data warehouse using the Medallion Architecture:  
   - ***Bronze Layer:*** Stores raw, unprocessed data.  
   - ***Silver Layer:*** Cleansed and standardized data.  
-  - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).   
+  - ***Gold Layer:*** Final business-ready tables (fact & dimension tables).
+
+
+###📊**Views Used For the Analysis**
+
+_Campaign Performance View
+
+_Channel Performance View
+
+_Customer Engagement View
+
+_Media Spend Analysis View
